@@ -1,0 +1,32 @@
+{
+  "name": "s3-image-fly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "image-upload.js",
+  "dependencies": {
+    "aws-sdk": "^2.647.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "sharp": "^0.25.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9kmmr/s3-image-fly.git"
+  },
+  "keywords": [
+    "s3",
+    "image",
+    "resize",
+    "sharp"
+  ],
+  "author": "lamvu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9kmmr/s3-image-fly/issues"
+  },
+  "homepage": "https://github.com/9kmmr/s3-image-fly#readme"
+}
